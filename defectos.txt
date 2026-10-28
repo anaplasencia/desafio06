@@ -1,0 +1,7 @@
+D1 Web sin respuesta
+   Causa: puerto ocupado o contenedor detenido
+   Corrección: revisar mapeo de puertos en docker-compose
+
+D2 Conflicto de contenedor MySQL
+   Causa: ya existía un contenedor con el nombre mysql_bd_s7
+   Corrección: eliminar el contenedor antiguo o usar docker compose down
