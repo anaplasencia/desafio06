@@ -1,0 +1,21 @@
+MATRIZ DE RIESGOS
+
+1. Puertos duplicados entre servicios
+   Impacto: Medio
+   Mitigación: Definir un mapa de puertos en el diseño antes de levantar los servicios.
+
+2. Archivo YAML mal indentado
+   Impacto: Medio
+   Mitigación: Usar 2 espacios de indentación y validar con docker compose config.
+
+3. Pérdida de datos
+   Impacto: Alto
+   Mitigación: Respaldo nocturno en backups/ y prueba de restauración.
+
+4. Acceso no autorizado por SSH
+   Impacto: Alto
+   Mitigación: Claves SSH y firewall UFW con solo los puertos necesarios.
+
+5. Caída de un servicio sin aviso
+   Impacto: Alto
+   Mitigación: Monitoreo con Prometheus y Grafana, con alertas.

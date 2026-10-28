@@ -1,0 +1,7 @@
+Riesgo | Impacto | Mitigación
+Caída de un servicio | Alto | Monitoreo y alertas (Uptime Kuma y Prometheus)
+Pérdida de datos | Alto | Respaldo diario con cron y prueba de restauración
+Acceso no permitido | Alto | Firewall UFW (22, 80, 443) y claves SSH
+Disco lleno (89 % usado en la VM) | Alto | Vigilar el espacio y limpiar imágenes y contenedores sin uso
+Puerto en conflicto (8081 repetido) | Medio | Mapa de puertos en el diseño
+Sistema sin soporte (Ubuntu 20.04) | Medio | Plan de actualización a una versión con soporte
