@@ -11,3 +11,4 @@ docker compose up -d
 
 ## Respaldo
 Incluye scripts de respaldo y restauración en la carpeta de scripts.
+# Configuración de puertos haproxy
