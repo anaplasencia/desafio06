@@ -1,0 +1,2 @@
+00f65095c4c8f7252d2028cfb9459a1fa78affd09664a6550ab69e6fa2ec6265  datos/clientes.txt
+84465d093387df21ed0f5c1a7ea29166d6a50734bc57fa2ae2c17ff111db0e31  datos/facturas.txt
