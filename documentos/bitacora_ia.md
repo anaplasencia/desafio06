@@ -10,9 +10,9 @@
 | 4 | Subir el trabajo a GitHub | Comandos git, pull --rebase y push | Confirme los archivos en GitHub | Dejar lab_perdida fuera del repositorio |
 
 ## Lo que aprendi
-- [Escribe aqui con tus palabras que es RTO y RPO]
-- [Escribe aqui por que se usa SHA256]
-- [Escribe aqui que es la regla 3-2-1]
+- El RTO es el tiempo que tardo en recuperar los datos y el RPO es cuántos datos puedo perder desde el último backup.
+- Se usa SHA256 para comprobar que un archivo no cambió ni se dañó.
+- La regla 3-2-1 es tener 3 copias, en 2 tipos de medio distintos y 1 copia fuera del servidor.
 
 ## Errores que encontre y como los resolvi
 - El git push fue rechazado porque GitHub tenia cambios nuevos. Lo resolvi con git stash y git pull --rebase.
